@@ -9,7 +9,7 @@ nav {
   transform: translateX(-50%);
   bottom: 2rem;
   display: flex;
-  gap: 0.8 rem;
+  gap: 1.5 rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
@@ -28,6 +28,6 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
